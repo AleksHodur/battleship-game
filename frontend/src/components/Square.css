@@ -1,0 +1,6 @@
+.square{
+    border: solid 1px gray;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100% 100%;
+}
