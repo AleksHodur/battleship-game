@@ -5,4 +5,16 @@
     /* background-size: 100% 100%; */
 /*     background-color: #537895;
     background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
-}
+ */}
+
+ .xaxis-labels{
+    position: fixed;
+    top: 3.3em;
+    padding-left: 1.5em;
+ }
+
+ .yaxis-labels{
+    position: relative;
+    right: 3em;
+    top: 1em;
+ }

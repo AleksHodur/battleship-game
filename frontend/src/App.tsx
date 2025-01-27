@@ -4,7 +4,7 @@ import Table from './components/Table';
 
 function App() {
   return (
-    <div className="App" style={{backgroundImage: "url(/img/background-steampunk.jpeg)"}}>
+    <div className="App" style={{backgroundImage: "url(/img/ship-interior.png)"}}>
       <Table />
     </div>
   );

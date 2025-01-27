@@ -4,8 +4,8 @@ import Square from "./Square";
 import { SquareClass, Line } from '../lib/classes';
 
 const gridTest = [
-    new Line(), new Line(), new Line(), new Line(), new Line(),
-    new Line(), new Line(), new Line()
+    new Line('A'), new Line('B'), new Line('C'), new Line('D'), new Line('E'),
+    new Line('F'), new Line('G'), new Line('H'), new Line('I'), new Line('J')
 ]
 
 function Grid() {
@@ -13,7 +13,7 @@ function Grid() {
         <div className="grid">
             { gridTest.map((line: Line) => (
                 line.squares.map((square: SquareClass) => (
-                    <Square />
+                    <Square key={square.xAxis + square.yAxis} squareObject={square} />
                 ))
             )) }
         </div>
