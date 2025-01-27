@@ -1,8 +1,9 @@
 .table{
     padding: 3rem;
-    background-size: contain;
+    background-color: rgb(255, 255, 255, 0.7);
+    /* background-size: contain;
     background-color: #000000;
     background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
     border: solid 1px #000000;
-    border-radius: 5px;
+    border-radius: 5px; */
 }

@@ -1,8 +1,8 @@
 .square{
-    border: solid 1px gray;
-    width: 4rem;
-    height: 4rem;
+    border: solid 1px #011535;
+    width: 3.5rem;
+    height: 3.5rem;
     /* background-size: 100% 100%; */
-    background-color: #537895;
+/*     background-color: #537895;
     background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
 }
